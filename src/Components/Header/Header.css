@@ -1,0 +1,117 @@
+.h-main{
+    height:80px;
+    display: flex;
+    align-items: center;
+   
+    justify-content: center;
+    background-color: #0b0b29;
+    position: relative;
+    margin-bottom: 0;
+}
+.hr-srchbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+}
+.hr-patients{
+    background-color: #dfdfdf;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    
+    justify-content: center;
+    border-radius: 50px 0 0 50px; /* Curved left side */
+    border-top-right-radius: 0; /* Flat right top corner */
+    border-bottom-right-radius: 0; /* Flat right bottom corner */
+
+}
+.hr-patients p{
+  margin: 9px 0px;
+   font-size: 24px;
+}
+
+
+.hr-patients img{
+    padding: 8px;
+    height:25px;
+}
+.hr-search{
+    position: relative;
+        width: 300px;
+        height: 50px;
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 0 50px 50px 0; /* Curved right side */
+        overflow: hidden;
+       
+}
+.search-input {
+    position: absolute;
+    top: 0;
+    right: 50px; /* Adjusted to give space for the search icon */
+    bottom: 0;
+    left: 0;
+    width: calc(100% - 100px); /* Adjusted to account for both sides */
+    border: none;
+    outline: none;
+    padding-right: 20px;
+    padding-left: 10px;
+    font: 30px;
+}
+
+.search-icon {
+    height:28px;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+   filter:invert(30%);
+}
+.hr-new{
+    color:white;
+    background-color: #039a3b;
+    width: 140px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+.add-icon{
+    height:32px;
+    filter: invert(100%);
+    margin-right: 5px;
+}
+.new-p{
+    font:24px;
+    font-weight:600;
+}
+.hr-profile{
+    position: absolute;
+    background-color: #0b0b29;
+        right: 0;
+        right: 20px; /* Adjust as needed */
+        width: 200px; /* Adjust as needed */
+       
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+.hr-pr-img{
+    height:40px;
+    width: 40px;
+    background-color: hsl(0, 0%, 28%);
+    border-radius: 50%;
+    margin: 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hr-pr-img img{
+    height:35px;
+    filter: invert(80%);
+}
+#notif{
+    height: 30px;
+}
